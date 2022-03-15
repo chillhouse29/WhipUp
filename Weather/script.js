@@ -10,7 +10,7 @@ form.addEventListener("submit", e => {
 
 async function showPlaceDetails(name) {
   const Response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${name}&APPID=${config.apiKey}`
+    `http://api.openweathermap.org/data/2.5/weather?q=${name}&APPID=9844020f7dce3140ef6312a356789f41`
   )
   if (Response.ok) {
     const data = await Response.json()
